@@ -1,0 +1,58 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var (var(--main-font));
+  font-weight: 500;
+}
+
+/* ====== HEADER ======= */
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: none;
+}
+.logo-text {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  font-size: 14px;
+  line-height: 1.15px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+/* ====== END HEADER ====== */

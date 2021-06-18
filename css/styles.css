@@ -1,8 +1,9 @@
 :root {
-  --main-font: "Roboto", "Helvetica Neue", "Roboto", "Verdana",
-    "Tahoma" sans-serif;
+  --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --main-color: #212121;
+  --secondary-color: #757575;
 }
 .list {
   list-style: none;
@@ -14,7 +15,7 @@
 body {
   font-family: var(--main-font);
   font-weight: 500;
-  color: #212121;
+  color: var(--main-color);
 }
 
 /* ====== HEADER ======= */
@@ -29,14 +30,14 @@ body {
   text-decoration: none;
 }
 .logo-text {
-  color: #212121;
+  color: var(--main-color);
 }
 
 .menu-link {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -51,7 +52,7 @@ body {
   font-size: 14px;
   line-height: 1.15px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -128,7 +129,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 /* ====== END FEATURES ======*/
 
@@ -151,7 +152,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 /* ====== END SERVICES ======*/
 
@@ -178,7 +179,7 @@ body {
   background-color: var(--accent-color);
 }
 .portfolio-link:visited {
-  color: #212121;
+  color: var(--main-color);
 }
 .portfolio-subtitle {
   font-weight: 700;
@@ -191,7 +192,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 /* ==================== END OF PORTFOLIO PAGE =====================*/

@@ -28,11 +28,15 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 }
+.logo-text {
+  color: #212121;
+}
 
 .menu-link {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  color: #212121;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -171,6 +175,9 @@ body {
 .filters-button:hover,
 .filters-button:focus {
   background-color: var(--accent-color);
+}
+.portfolio-link:visited {
+  color: #212121;
 }
 .portfolio-subtitle {
   font-weight: 700;
